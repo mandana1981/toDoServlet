@@ -1,16 +1,19 @@
 package ca.servlet;
 
-public class Do {
+public class DoItem {
     private String description;
-    private String dueDate;
+    private String date;
 
-    public Do() {
+    public DoItem() {
     }
 
-    public Do(String description, String dueDate) {
+    public DoItem( String description, String date) {
+
         this.description = description;
-        this.dueDate = dueDate;
+        this.date = date;
     }
+
+
 
     public String getDescription() {
         return description;
@@ -20,11 +23,11 @@ public class Do {
         this.description = description;
     }
 
-    public String getDueDate() {
-        return dueDate;
+    public String getDate() {
+        return date;
     }
 
-    public void setDueDate(String dueDate) {
-        this.dueDate = dueDate;
+    public void setDate(String date) {
+        this.date = date;
     }
 }

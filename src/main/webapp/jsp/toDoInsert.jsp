@@ -12,18 +12,23 @@
 </head>
 <body>
 <h3>Welcome to second page,you can insert your first Do.</h3>
-<a href="doInsert.html"> </a>
+
 <form action="/DoServlet" method="post">
 
 
     Date: <input type="text" name="date">
     <br>
+    <br>
     Description: <input type="text" name="description">
     <br>
+    <br>
     <input type="submit" value="Insert">
+</form>
+
+<form action="/DoServlet" method="get">
 
 
-
+    <input type="submit" value="Show">
 </form>
 
 
