@@ -3,8 +3,15 @@
  "http://java.sun.com/dtd/web-app_2_3.dtd" >
 
 <web-app>
+    <filter>
+        <filter-name>SimpleFilter</filter-name>
+        <filter-class>ca.servlet.filter.SimpleFilter</filter-class>
+    </filter>
 
-
+<filter-mapping>
+    <filter-name>SimpleFilter</filter-name>
+    <url-pattern>/DoServlet</url-pattern>
+</filter-mapping>
 
 
 
