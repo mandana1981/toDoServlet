@@ -20,9 +20,12 @@
     <br>
     <br>
     Description: <input type="text" name="description">
+
     <br>
     <br>
     <input type="submit" value="Insert">
+
+
 </form>
 
 <form action="/DoServlet" method="get">

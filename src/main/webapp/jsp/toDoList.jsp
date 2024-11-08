@@ -1,6 +1,6 @@
 <%@ page import="java.util.List" %>
-<%@ page import="ca.servlet.DoItem" %>
-<%@ page import="ca.servlet.DoItem" %>
+<%@ page import="servlets.DoItem" %>
+<%@ page import="servlets.DoItem" %>
 <%--
   Created by IntelliJ IDEA.
   User: manda

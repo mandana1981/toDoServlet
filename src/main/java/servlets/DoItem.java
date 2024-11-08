@@ -1,4 +1,4 @@
-package ca.servlet;
+package servlets;
 
 public class DoItem {
     private String description;

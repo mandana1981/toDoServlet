@@ -5,7 +5,7 @@
 <web-app>
     <filter>
         <filter-name>SimpleFilter</filter-name>
-        <filter-class>ca.servlet.filter.SimpleFilter</filter-class>
+        <filter-class>filters.SimpleFilter</filter-class>
     </filter>
 
 <filter-mapping>

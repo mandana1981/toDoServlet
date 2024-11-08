@@ -1,6 +1,5 @@
-package ca.servlet;
+package servlets;
 
-import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
@@ -30,8 +29,8 @@ public class DoServlet extends HttpServlet {
 
     @Override
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        String description = req.getParameter("description");
         String date = req.getParameter("date");
+        String description = req.getParameter("description");
         DoItem doItem1 = new DoItem(description,date);
         toDoItemList.add(doItem1);
 
